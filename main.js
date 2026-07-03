@@ -12,7 +12,7 @@ function getFeedHtml() {
 
     let feedHtml = ``
 
-    for (const tweet of tweetsData) {
+    tweetsData.forEach(tweet =>  {
         feedHtml += `
             <div class="tweet">
             <div class="tweet-inner">
@@ -35,6 +35,6 @@ function getFeedHtml() {
             </div>
     </div>
         `
-    }
+    })
     console.log(feedHtml)
 }
