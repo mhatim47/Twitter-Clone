@@ -36,5 +36,11 @@ function getFeedHtml() {
     </div>
         `
     })
-    console.log(feedHtml)
+    return feedHtml
 }
+
+function render() {
+    document.getElementById("feed").innerHTML = getFeedHtml();
+}
+
+render(1)
