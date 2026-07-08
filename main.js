@@ -40,7 +40,7 @@ function getFeedHtml() {
                             ${tweet.likes}
                         </span>
                         <span class="tweet-detail">
-                            <i class="fa-solid fa-retweetj" data-retweets="${tweet.uuid}"></i>
+                            <i class="fa-solid fa-retweet" data-retweets="${tweet.uuid}"></i>
                             ${tweet.retweets}
                         </span>
                     </div>   
