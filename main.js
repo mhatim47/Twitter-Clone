@@ -36,7 +36,7 @@ function getFeedHtml() {
                             <i class="fa-regular fa-comment-dots" data-replay="${tweet.uuid}"></i>
                         </span>
                         <span class="tweet-detail">
-                        <i class="fa-solid fa-heart" data-likes="${tweet.uuid}"></i>
+                        <i class="fa-solid fa-heart" data-like="${tweet.uuid}"></i>
                             ${tweet.likes}
                         </span>
                         <span class="tweet-detail">
